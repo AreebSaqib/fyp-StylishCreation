@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &139234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 484766}
+  - component: {fileID: 11464794}
+  m_Layer: 0
+  m_Name: GSF_MainMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &484766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11464794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5557f28a28369429f2be0fb99f4c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAvatars:
+  - {fileID: 21300000, guid: 1adf41313c732d7449b3ce5762f3db1a, type: 3}
+  - {fileID: 21300000, guid: 652a95b8f62b1ae40901aee1aee4f139, type: 3}
+  - {fileID: 21300000, guid: 09d0ea692eca07e4c8637136e0a8de2c, type: 3}
+  - {fileID: 21300000, guid: bc25ab080402fed499f63b3726057711, type: 3}
+  - {fileID: 21300000, guid: c2468466fe9e189489b4d4aa6cdf775d, type: 3}
+  - {fileID: 21300000, guid: a7e9141451ee5d74da154a17abd35d0f, type: 3}
+  settingsProps:
+    soundOn: {fileID: 0}
+    soundOff: {fileID: 0}
+    musicOn: {fileID: 0}
+    musicOff: {fileID: 0}
+    vibrationOn: {fileID: 0}
+    vibrationOff: {fileID: 0}
+    leftControlOn: {fileID: 0}
+    leftControlOff: {fileID: 0}
+    rightControlOn: {fileID: 0}
+    rightControlOff: {fileID: 0}
+  menu_UI:
+    profileImg: {fileID: 0}
+    ReplaceableAvatar: {fileID: 0}
+    fillBar: {fileID: 0}
+    profileName: {fileID: 0}
+    inputName: {fileID: 0}
+    totalCoins: {fileID: 0}
+    storeBtn: {fileID: 0}
+    profilePanel: {fileID: 0}
+    uiPanel: {fileID: 0}
+    menuPanel: {fileID: 0}
+    ExitDialogue: {fileID: 0}
+    loadingPanel: {fileID: 0}
+  NextScene: 4
+  loadTime: 4

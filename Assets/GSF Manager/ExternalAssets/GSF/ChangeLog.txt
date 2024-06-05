@@ -1,0 +1,110 @@
+v2.1.2
+-------
+- Removed : Game Analytics
+
+v2.1.1
+-------
+- Fixed : Rate Us Stars Management
+- Updated : DoTween Pro 1.0.165
+- Updated : Odin Inspector v2.1.6
+
+v2.1
+-------
+- Fixed : Gameplay Controller player selection bug
+- Updated : Player Selection Purchasing
+- Added : Unity IAP and linked with Inapp Controller
+- Added : Rate Us Stars Management for bad rating
+- Added : DoTween Pro 1.0.065
+- Added : Consent Scene
+- Added : Game Analytics
+- Removed : Voxel Buster CPNP
+
+v2.0
+-------
+- Updated : Build Report Tool to v3.4.8
+
+v1.9
+-------
+- Updated : Build Report Tool to v3.4.2
+
+v1.8
+-------
+- Changed : InAppController updated to manage product identifiers via editor
+- Updated : Build Report Tool to v3.2
+- Updated : GSF_AdsManager updated to support ConsoliAds v1.2+
+
+v1.7
+-------
+- Fixed : CrossPromotion button press issue
+- Added : Loading screen sequence option in LevelSelection and PlayerSelection
+- Added : Added an option to open save data file from Windows/GSF - Gamerz Studio Framework/Open Save File 
+- Changed : Rewrote reward system in GameController
+- Changed : No need to assign level buttons individually in LevelController anymore
+- Updated : CPNP to v1.5.1 (Latest Release)
+
+v1.6
+-------
+- Updated : CPNP to v1.5 (Latest Release)
+- Added : Option to spawn multiple items at specified points at level start.
+
+v1.5
+-------
+- Fixed : Multiplayer function not working properly
+- Added : Functions to handle multiple players in a level
+- Added : SplashScreen which handles all important initializations
+- Changed : SaveData now uses JSON instead of BinaryFile due to some limitations
+
+v1.4
+-------
+- Added : XML developer files for crosspromotion
+- Added : Ability to select any player in Gameplay
+- Added : Added support for multiple player within a single level
+- Updated : Crosspromotion module seperated from MainMenu.
+- Updated : CPNP to v1.4 (Latest Release)
+
+v1.3
+-------
+- Added : Added support for Consoli v1.1.4
+- Added : Included Game over state system
+- Added : Added option to select Banner/Frame promotion type in main menu.
+
+v1.2
+-------
+- Added : Replaced Mesh Merge & Splice with ProDrawCallOptimizer v4.0
+- Added : Cross Promotion functionality
+- Added : Option to switch player anywhere using GameManager.Instance.SwitchPlayer (x,y) where x=player index y=Activate/DeactivateObject
+- Changed : Removed playservices_measurement dues to installation conflict
+
+v1.1
+-------
+- Fixed : Reward system code refactored
+- Updated : CPNP to v1.4
+- Changed : Added null check for ConsoliAds in GSF_AdManager
+
+
+v1.0.3
+-------
+- Added : Functions to Pause/Resume Game timer (See demo)
+- Added : Added an option to reset save data in Windows/GSF - Gamerz Studio Framework/Reset Save Data
+- Added : Added support for multiple background music loops in GamePlay
+- Fixed : Added checks to avoid Exceptions related to ConsoliAds
+- Fixed : In-App restore issue
+- Changed : SaveLoad changed to GSF_SaveLoad
+
+v1.0.2
+-------
+- Added : Added support for Unity v5.4
+- Fixed : Game Save issue upon level completion
+
+v1.0.1
+-------
+- Added : Seperate AdsManager to eliminate developer error
+- Added : Network connectivity check
+
+v1.0
+-----
+- Initial Release
+- Added : CPNP v1.3.1.1
+- Added : Build Report Tool v3.0.21
+- Added : Easy Frame Rate Counter v0.5
+- Added : Mesh Merge & Splice v1.0
